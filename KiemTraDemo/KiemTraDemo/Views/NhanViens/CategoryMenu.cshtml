@@ -1,0 +1,8 @@
+﻿@model IEnumerable<KiemTraDemo.Models.Phong>
+
+@foreach(var item in Model)
+{
+    var url = "/NhanVienTheoPhong/" + item.Maphong;
+    <a href="">@item.Tenphong</a><label>&nbsp;|&nbsp;</label>
+    
+}    
